@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import Feedback from './components/Feedback';
+// import Feedback from './components/Feedback';
+import History from './components/History';
+
 import './App.css';
  
 function App({name,age}) {
@@ -21,7 +23,7 @@ function App({name,age}) {
 
     
       
-    <Feedback/>
+    <History/>
     </>
 
   );
